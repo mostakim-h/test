@@ -10,7 +10,7 @@
     "prisma:migrate": "npx prisma migrate dev"
   },
   "dependencies": {
-    "@prisma/client": "^6.18.0",
+    "@prisma/client": "^6.17.0",
     "dotenv": "^16.6.1",
     "express": "^4.21.1"
   },
