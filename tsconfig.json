@@ -9,11 +9,6 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["*"],
-      "@/config/*": ["config/*"],
-      "@/modules/*": ["modules/*"],
-      "@/middlewares/*": ["middlewares/*"],
-      "@/utils/*": ["utils/*"],
-      "@/routes/*": ["routes/*"],
     },
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
@@ -38,7 +33,7 @@
     "noImplicitOverride": true,
     "exactOptionalPropertyTypes": false,
     "skipLibCheck": true,
-    "typeRoots": ["./node_modules/@types", "./src/types", "./types"],
+    "typeRoots": ["./node_modules/@types"],
     "incremental": true,
     "tsBuildInfoFile": "./dist/.tsbuildinfo"
   },
@@ -46,7 +41,7 @@
     "src/**/*",
     "types/**/*",
     "openapi.yaml"
-  , "tsconfig.build.json"  ],
+, "tsconfig.build.json"  ],
   "exclude": [
     "node_modules",
     "dist",
